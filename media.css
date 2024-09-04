@@ -1,0 +1,59 @@
+@media screen and (max-width: 1000px) {
+    
+    .feedback-title {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .feedback ul li{
+        font-size: 15px;
+    }
+
+    .feedback ul li span{
+        font-size: 18px;
+    }
+
+    .footer-item ul{
+        font-size: 12px;
+        line-height: 120%;
+    }
+
+    .footer {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .info-item p{
+        font-size: 12px;
+    }
+
+    .slide-content{
+        font-size: 12px;
+    }
+
+    .sliders-item-title{
+        font-size: 20px;
+    }
+
+    .sliders-item-text {
+        font-size: 18px;
+        margin-bottom: 20px;
+        line-height: 100%;
+}
+    .contacts-info ul li {
+        font-size: 15px;
+        line-height: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .cross-section p {
+        font-size: 25px;
+    }
+
+    .footer-logo-title{
+        font-size: 16px;
+    }
+
+}
