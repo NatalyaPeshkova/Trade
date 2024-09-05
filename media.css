@@ -107,10 +107,10 @@
     .presentation-info {
         font-size: 20px;
     }
-
+/* 
     .header__title p:last-of-type{
         font-size: 10px;
-    }
+    } */
 }
 
 @media screen and (max-width: 750px) {
@@ -121,6 +121,10 @@
 }
 
 @media screen and (max-width: 700px) {
+    .professional-experience{
+        font-size: 25px;
+    }
+
     .presentation-info {
         font-size: 20px;
     }
@@ -147,6 +151,7 @@
     .footer{
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
+        padding-left: 20px;
     }
 
     .footer-contacts {
@@ -161,6 +166,28 @@
     .footer-item-logo {
         margin-bottom: 10px;
     }
+
+    .footer-item {
+        padding: 0;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    .callus{
+        display: none;
+    }
+
+    .contact-info {
+        margin-top: 10px;
+    }
+
+    .seo-text-title{
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -169,9 +196,36 @@
         grid-template-columns: 250px 250px;
     }
 
+    .cover__title{
+        font-size: 15px;
+    }
+    .info{
+        display: none;
+    }
+
+    .sliders{
+        flex-direction: column-reverse;
+    }
+
+    .sliders-slider {
+        width: 80%;
+        align-self: center;
+    }
+
+    .sliders-item{
+        width: 80%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
-
+@media screen and (max-width: 550px) {
+    .presentation-info {
+        font-size: 15px;
+    }
+}
 
 
 
