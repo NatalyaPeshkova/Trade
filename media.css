@@ -1,5 +1,9 @@
 @media screen and (max-width: 1000px) {
     
+    .selection-title{
+        font-size: 30px;
+    }
+
     .feedback-title {
         font-size: 30px;
         margin-bottom: 10px;
@@ -107,10 +111,7 @@
     .presentation-info {
         font-size: 20px;
     }
-/* 
-    .header__title p:last-of-type{
-        font-size: 10px;
-    } */
+
 }
 
 @media screen and (max-width: 750px) {
@@ -182,7 +183,7 @@
     }
 
     .contact-info {
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
     .seo-text-title{
@@ -219,11 +220,40 @@
         flex-direction: column;
     }
 
+    .selection-items {
+        grid-template-columns: 200px 200px;
+    }
+
+    .footer-item h4{
+        margin-top: 20px;
+    }
+
 }
 
 @media screen and (max-width: 550px) {
     .presentation-info {
         font-size: 15px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 450px){
+    .cross-section{
+        display: none;
+    }
+
+    .btn-section{
+        flex-direction: column-reverse;
+    }
+
+    /* .presentation-btns{
+        flex-direction: column-reverse;
+    } */
+
+    .sliders{
+        display: none;
     }
 }
 
